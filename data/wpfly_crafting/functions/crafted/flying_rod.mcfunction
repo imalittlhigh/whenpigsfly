@@ -12,7 +12,7 @@ recipe take @s wpfly_crafting:flying_rod
 advancement revoke @s only wpfly_crafting:flying_rod_adv
 
 #clearing the crafted knowledge book
-clear @s minecraft:warped_fungus_on_a_stick 1
+clear @s minecraft:knowledge_book 1
 
 
-give @s carrot_on_a_stick{display:{Name:'{"text":"The Flying Carrot","color":"yellow","italic":false}',Lore:['{"text":"Makes pigs fly","color":"gray"}']},wpfly:1b} 1
+give @s carrot_on_a_stick{display:{Name:'{"text":"The Flying Carrot","color":"yellow","italic":false}',Lore:['{"text":"Lets Pigs fly","color":"gray"}']},wpfly:1b} 1
