@@ -1,0 +1,65 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "vehicle": {
+                      "type": "minecraft:pig"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:all_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "mainhand": {
+                            "items": [
+                              "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{wpfly:1b}"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:inverted",
+                      "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                          "equipment": {
+                            "offhand": {
+                              "items": [
+                                "minecraft:carrot_on_a_stick"
+                              ],
+                              "nbt": "{wpfly:1b}"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "wpfly:movement/up"
+    }
+  }
+  

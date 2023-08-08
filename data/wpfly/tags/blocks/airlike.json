@@ -1,0 +1,20 @@
+{
+    "values": [
+      "minecraft:air",
+      "minecraft:cave_air",
+      "#minecraft:cave_vines",
+      "minecraft:twisting_vines",
+      "minecraft:twisting_vines_plant",
+      "minecraft:vine",
+      "minecraft:weeping_vines",
+      "minecraft:weeping_vines_plant",
+      "#minecraft:flowers",
+      "minecraft:bamboo",
+      "minecraft:sugar_cane",
+      "minecraft:big_dripleaf",
+      "minecraft:big_dripleaf_stem",
+      "minecraft:small_dripleaf",
+      "#minecraft:all_signs"
+    ]
+  }
+  
